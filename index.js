@@ -1,7 +1,7 @@
 'use strict';
 
 var extend = require('extend-shallow');
-var highlight = require('prism').highlight;
+var highlight = require('prismjs').highlight;
 
 exports.name = 'prismjs';
 exports.inputFormats = ['code', 'prismjs', 'prism', 'highlight'];
